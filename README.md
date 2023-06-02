@@ -1,17 +1,17 @@
 # 3cx-localization
 
-This is a simple python script which can be used to add unsupported localisation to latest version of 3cx (v18).
+This is a simple Python script that can be used to add unsupported localization to the latest version of 3CX (v18).
 
-Script will do following  tasks:
+The script will perform the following tasks:
 
-1. replace Polish language with language you like  - in  this example  Croatian
-2. replace Polish flag with Croatian
-3. replace Polish localization file  in  folder l10n with localisations from  translations.json file
+1. Replace the Polish language with the language you desire (in this example, Croatian).
+2. Replace the Polish flag with the Croatian flag.
+3. Replace the Polish localization file in the 'l10n' folder with localizations from the 'translations.json' file.
 
-If you want  to use it for  your language you  have to:
+If you want to use it for your language, you need to:
 
-1. change Croatian language for your  desired language
-2. change Croatian flag to your desired flag. Flag should  be 24px with transparent  background
-3. add translations in translations.json file
-4. upload 3cx_localization.py & translations.json  file to your 3cx (this  is  for  linux)
-5. run python  3cx_localization.py
+1. Change the Croatian language to your desired language.
+2. Change the Croatian flag to your desired flag. The flag should be 24px with a transparent background.
+3. Add translations in the 'translations.json' file.
+4. Upload the '3cx_localization.py' and 'translations.json' files to your 3CX (for Linux).
+5. Run 'python 3cx_localization.py'.
